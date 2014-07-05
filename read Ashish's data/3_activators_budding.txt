@@ -1,0 +1,451 @@
+
+Coat Proteins:
+Nc String: [Nc[0]', Nc[1], Nc[2]', Nc[3]', Nc[4], Nc[5]', Nc[6]', Nc[7], Nc[8]', Nc[9]]
+Recruitment DNF: p * r + q * r + q * s'
+Nc String: [Nc[0], Nc[1]', Nc[2]', Nc[3], Nc[4]', Nc[5], Nc[6], Nc[7], Nc[8]', Nc[9]']
+Recruitment DNF: p * q + p * r + s' * t'
+Nc String: [Nc[0]', Nc[1]', Nc[2], Nc[3]', Nc[4]', Nc[5]', Nc[6]', Nc[7], Nc[8], Nc[9]']
+Recruitment DNF: p * t' + q * s' + r * t'
+Formula: (i' + Nc[3]' * s) * (j' + Nc[4]' * t) * (g' + Nc[1]' * q) * (p * t' + q * s' + r * t') * (Nc[0] + f + p') * (Nc[1] + g + q') * (Nc[2]' + h + r') * (Nc[3] + i + s') * (Nc[4] + j + t') * (f' + Nc[0]' * p) * (h' + Nc[2] * r) + (Nc[0] + f + p') * (Nc[1]' + g + q') * (j' + Nc[4] * t) * (Nc[2] + h + r') * (Nc[3] + i + s') * (Nc[4]' + j + t') * (g' + Nc[1] * q) * (f' + Nc[0]' * p) * (p * r + q * r + q * s') * (i' + Nc[3]' * s) * (h' + Nc[2]' * r) + (j' + Nc[4]' * t) * (Nc[1] + g + q') * (g' + Nc[1]' * q) * (h' + Nc[2]' * r) * (Nc[0]' + f + p') * (Nc[2] + h + r') * (f' + Nc[0] * p) * (Nc[3]' + i + s') * (Nc[4] + j + t') * (p * q + p * r + s' * t') * (i' + Nc[3] * s)
+
+Coat Proteins:
+Nc String: [Nc[0]', Nc[1], Nc[2]', Nc[3], Nc[4]', Nc[5], Nc[6], Nc[7]', Nc[8], Nc[9]']
+Recruitment DNF: p * t' + q * s' + r * t'
+Nc String: [Nc[0], Nc[1], Nc[2]', Nc[3], Nc[4], Nc[5], Nc[6]', Nc[7]', Nc[8]', Nc[9]]
+Recruitment DNF: p * r + p * s' + q * r
+Nc String: [Nc[0]', Nc[1]', Nc[2], Nc[3], Nc[4], Nc[5]', Nc[6]', Nc[7]', Nc[8]', Nc[9]]
+Recruitment DNF: p * t' + q * r + q * s'
+Formula: (h' + Nc[2]' * r) * (f' + Nc[0] * p) * (Nc[0]' + f + p') * (Nc[1]' + g + q') * (Nc[2] + h + r') * (Nc[3]' + i + s') * (Nc[4]' + j + t') * (g' + Nc[1] * q) * (i' + Nc[3] * s) * (p * r + p * s' + q * r) * (j' + Nc[4] * t) + (p * t' + q * s' + r * t') * (h' + Nc[2]' * r) * (f' + Nc[0]' * p) * (i' + Nc[3] * s) * (Nc[0] + f + p') * (Nc[1]' + g + q') * (g' + Nc[1] * q) * (Nc[2] + h + r') * (Nc[3]' + i + s') * (Nc[4] + j + t') * (j' + Nc[4]' * t) + (p * t' + q * r + q * s') * (Nc[0] + f + p') * (Nc[1] + g + q') * (Nc[2]' + h + r') * (g' + Nc[1]' * q) * (f' + Nc[0]' * p) * (j' + Nc[4] * t) * (Nc[4]' + j + t') * (h' + Nc[2] * r) * (i' + Nc[3] * s) * (Nc[3]' + i + s')
+
+Coat Proteins:
+Nc String: [Nc[0], Nc[1], Nc[2]', Nc[3], Nc[4]', Nc[5]', Nc[6], Nc[7]', Nc[8]', Nc[9]]
+Recruitment DNF: p * s' + q * r + r * t'
+Nc String: [Nc[0], Nc[1]', Nc[2], Nc[3], Nc[4], Nc[5], Nc[6]', Nc[7], Nc[8], Nc[9]']
+Recruitment DNF: q * r + r * s' + s' * t'
+Nc String: [Nc[0], Nc[1]', Nc[2], Nc[3], Nc[4], Nc[5], Nc[6], Nc[7]', Nc[8], Nc[9]']
+Recruitment DNF: p * t' + q * r + r * t'
+Formula: (f' + Nc[0] * p) * (Nc[2]' + h + r') * (g' + Nc[1]' * q) * (Nc[1] + g + q') * (Nc[3]' + i + s') * (j' + Nc[4] * t) * (p * t' + q * r + r * t') * (Nc[0]' + f + p') * (h' + Nc[2] * r) * (Nc[4]' + j + t') * (i' + Nc[3] * s) + (Nc[0]' + f + p') * (Nc[2]' + h + r') * (q * r + r * s' + s' * t') * (j' + Nc[4] * t) * (h' + Nc[2] * r) * (i' + Nc[3] * s) * (g' + Nc[1]' * q) * (Nc[1] + g + q') * (Nc[3]' + i + s') * (Nc[4]' + j + t') * (f' + Nc[0] * p) + (Nc[0]' + f + p') * (Nc[1]' + g + q') * (Nc[2] + h + r') * (Nc[3]' + i + s') * (g' + Nc[1] * q) * (Nc[4] + j + t') * (j' + Nc[4]' * t) * (i' + Nc[3] * s) * (f' + Nc[0] * p) * (h' + Nc[2]' * r) * (p * s' + q * r + r * t')
+
+Coat Proteins:
+Nc String: [Nc[0], Nc[1], Nc[2]', Nc[3], Nc[4]', Nc[5], Nc[6], Nc[7], Nc[8]', Nc[9]]
+Recruitment DNF: p * r + q * s' + q * t'
+Nc String: [Nc[0]', Nc[1]', Nc[2], Nc[3]', Nc[4]', Nc[5], Nc[6], Nc[7]', Nc[8]', Nc[9]']
+Recruitment DNF: p * q + q * r + r * s'
+Nc String: [Nc[0]', Nc[1], Nc[2]', Nc[3]', Nc[4]', Nc[5]', Nc[6], Nc[7]', Nc[8]', Nc[9]]
+Recruitment DNF: q * s' + r * s' + r * t'
+Formula: (g' + Nc[1]' * q) * (h' + Nc[2] * r) * (i' + Nc[3]' * s) * (Nc[0] + f + p') * (Nc[1] + g + q') * (Nc[2]' + h + r') * (Nc[3] + i + s') * (Nc[4] + j + t') * (j' + Nc[4]' * t) * (f' + Nc[0]' * p) * (p * q + q * r + r * s') + (Nc[0]' + f + p') * (Nc[1]' + g + q') * (j' + Nc[4]' * t) * (h' + Nc[2]' * r) * (g' + Nc[1] * q) * (f' + Nc[0] * p) * (Nc[2] + h + r') * (Nc[3]' + i + s') * (Nc[4] + j + t') * (i' + Nc[3] * s) * (p * r + q * s' + q * t') + (g' + Nc[1] * q) * (q * s' + r * s' + r * t') * (h' + Nc[2]' * r) * (Nc[0] + f + p') * (Nc[1]' + g + q') * (Nc[2] + h + r') * (Nc[3] + i + s') * (Nc[4] + j + t') * (j' + Nc[4]' * t) * (f' + Nc[0]' * p) * (i' + Nc[3]' * s)
+
+Coat Proteins:
+Nc String: [Nc[0]', Nc[1], Nc[2]', Nc[3], Nc[4]', Nc[5]', Nc[6], Nc[7]', Nc[8]', Nc[9]']
+Recruitment DNF: q * r + q * t' + r * s'
+Nc String: [Nc[0]', Nc[1], Nc[2]', Nc[3], Nc[4]', Nc[5], Nc[6], Nc[7]', Nc[8], Nc[9]]
+Recruitment DNF: q * r + r * s' + s' * t'
+Nc String: [Nc[0], Nc[1], Nc[2], Nc[3]', Nc[4]', Nc[5]', Nc[6], Nc[7], Nc[8]', Nc[9]']
+Recruitment DNF: q * s' + q * t' + s' * t'
+Formula: (q * r + r * s' + s' * t') * (g' + Nc[1] * q) * (h' + Nc[2]' * r) * (j' + Nc[4]' * t) * (f' + Nc[0]' * p) * (Nc[0] + f + p') * (Nc[1]' + g + q') * (Nc[2] + h + r') * (Nc[3]' + i + s') * (Nc[4] + j + t') * (i' + Nc[3] * s) + (q * r + q * t' + r * s') * (Nc[0] + f + p') * (Nc[3]' + i + s') * (f' + Nc[0]' * p) * (Nc[1]' + g + q') * (Nc[2] + h + r') * (Nc[4] + j + t') * (g' + Nc[1] * q) * (j' + Nc[4]' * t) * (i' + Nc[3] * s) * (h' + Nc[2]' * r) + (g' + Nc[1] * q) * (f' + Nc[0] * p) * (Nc[0]' + f + p') * (Nc[1]' + g + q') * (i' + Nc[3]' * s) * (Nc[2]' + h + r') * (Nc[3] + i + s') * (q * s' + q * t' + s' * t') * (Nc[4] + j + t') * (j' + Nc[4]' * t) * (h' + Nc[2] * r)
+
+Coat Proteins:
+Nc String: [Nc[0], Nc[1]', Nc[2], Nc[3], Nc[4]', Nc[5], Nc[6], Nc[7], Nc[8], Nc[9]]
+Recruitment DNF: p * q + q * r + s' * t'
+Nc String: [Nc[0], Nc[1]', Nc[2]', Nc[3], Nc[4]', Nc[5]', Nc[6]', Nc[7], Nc[8], Nc[9]]
+Recruitment DNF: p * s' + p * t' + s' * t'
+Nc String: [Nc[0]', Nc[1], Nc[2]', Nc[3]', Nc[4], Nc[5]', Nc[6]', Nc[7]', Nc[8], Nc[9]']
+Recruitment DNF: p * t' + q * t' + r * s'
+Formula: (p * q + q * r + s' * t') * (Nc[3]' + i + s') * (f' + Nc[0] * p) * (g' + Nc[1]' * q) * (Nc[0]' + f + p') * (Nc[1] + g + q') * (Nc[2]' + h + r') * (Nc[4] + j + t') * (i' + Nc[3] * s) * (h' + Nc[2] * r) * (j' + Nc[4]' * t) + (j' + Nc[4] * t) * (i' + Nc[3]' * s) * (Nc[1]' + g + q') * (p * t' + q * t' + r * s') * (Nc[0] + f + p') * (Nc[2] + h + r') * (Nc[3] + i + s') * (Nc[4]' + j + t') * (f' + Nc[0]' * p) * (h' + Nc[2]' * r) * (g' + Nc[1] * q) + (j' + Nc[4]' * t) * (Nc[0]' + f + p') * (Nc[1] + g + q') * (Nc[2] + h + r') * (Nc[3]' + i + s') * (p * s' + p * t' + s' * t') * (f' + Nc[0] * p) * (i' + Nc[3] * s) * (g' + Nc[1]' * q) * (Nc[4] + j + t') * (h' + Nc[2]' * r)
+
+Coat Proteins:
+Nc String: [Nc[0]', Nc[1]', Nc[2], Nc[3], Nc[4]', Nc[5], Nc[6], Nc[7]', Nc[8], Nc[9]]
+Recruitment DNF: p * r + p * s' + p * t'
+Nc String: [Nc[0]', Nc[1], Nc[2], Nc[3]', Nc[4]', Nc[5], Nc[6], Nc[7], Nc[8], Nc[9]']
+Recruitment DNF: p * q + q * r + r * t'
+Nc String: [Nc[0], Nc[1]', Nc[2]', Nc[3]', Nc[4], Nc[5]', Nc[6], Nc[7], Nc[8]', Nc[9]']
+Recruitment DNF: p * r + p * s' + s' * t'
+Formula: (p * r + p * s' + p * t') * (h' + Nc[2] * r) * (j' + Nc[4]' * t) * (g' + Nc[1]' * q) * (Nc[0] + f + p') * (Nc[1] + g + q') * (Nc[2]' + h + r') * (Nc[3]' + i + s') * (Nc[4] + j + t') * (i' + Nc[3] * s) * (f' + Nc[0]' * p) + (i' + Nc[3]' * s) * (h' + Nc[2]' * r) * (Nc[0]' + f + p') * (Nc[4]' + j + t') * (f' + Nc[0] * p) * (j' + Nc[4] * t) * (p * r + p * s' + s' * t') * (g' + Nc[1]' * q) * (Nc[1] + g + q') * (Nc[2] + h + r') * (Nc[3] + i + s') + (p * q + q * r + r * t') * (i' + Nc[3]' * s) * (j' + Nc[4]' * t) * (f' + Nc[0]' * p) * (g' + Nc[1] * q) * (Nc[0] + f + p') * (Nc[1]' + g + q') * (Nc[2]' + h + r') * (Nc[3] + i + s') * (Nc[4] + j + t') * (h' + Nc[2] * r)
+
+Coat Proteins:
+Nc String: [Nc[0], Nc[1], Nc[2]', Nc[3], Nc[4]', Nc[5], Nc[6], Nc[7], Nc[8], Nc[9]']
+Recruitment DNF: p * s' + p * t' + r * s'
+Nc String: [Nc[0]', Nc[1], Nc[2], Nc[3], Nc[4]', Nc[5], Nc[6]', Nc[7], Nc[8], Nc[9]']
+Recruitment DNF: p * s' + q * t' + s' * t'
+Nc String: [Nc[0], Nc[1]', Nc[2], Nc[3]', Nc[4]', Nc[5], Nc[6], Nc[7], Nc[8]', Nc[9]']
+Recruitment DNF: p * s' + p * t' + r * s'
+Formula: (Nc[0]' + f + p') * (g' + Nc[1] * q) * (i' + Nc[3] * s) * (f' + Nc[0] * p) * (h' + Nc[2]' * r) * (Nc[1]' + g + q') * (Nc[2] + h + r') * (Nc[3]' + i + s') * (Nc[4] + j + t') * (j' + Nc[4]' * t) * (p * s' + p * t' + r * s') + (Nc[1] + g + q') * (Nc[2]' + h + r') * (Nc[3] + i + s') * (j' + Nc[4]' * t) * (g' + Nc[1]' * q) * (i' + Nc[3]' * s) * (Nc[4] + j + t') * (h' + Nc[2] * r) * (f' + Nc[0] * p) * (Nc[0]' + f + p') * (p * s' + p * t' + r * s') + (i' + Nc[3] * s) * (Nc[0] + f + p') * (f' + Nc[0]' * p) * (j' + Nc[4]' * t) * (g' + Nc[1] * q) * (Nc[1]' + g + q') * (Nc[2]' + h + r') * (Nc[3]' + i + s') * (Nc[4] + j + t') * (h' + Nc[2] * r) * (p * s' + q * t' + s' * t')
+
+Coat Proteins:
+Nc String: [Nc[0], Nc[1], Nc[2]', Nc[3], Nc[4], Nc[5]', Nc[6], Nc[7], Nc[8], Nc[9]']
+Recruitment DNF: p * r + p * s' + q * t'
+Nc String: [Nc[0], Nc[1], Nc[2], Nc[3]', Nc[4], Nc[5]', Nc[6], Nc[7]', Nc[8]', Nc[9]']
+Recruitment DNF: q * r + q * s' + r * t'
+Nc String: [Nc[0], Nc[1], Nc[2]', Nc[3], Nc[4], Nc[5], Nc[6], Nc[7]', Nc[8]', Nc[9]]
+Recruitment DNF: p * s' + r * t' + s' * t'
+Formula: (Nc[2] + h + r') * (Nc[3]' + i + s') * (h' + Nc[2]' * r) * (Nc[0]' + f + p') * (Nc[1]' + g + q') * (i' + Nc[3] * s) * (j' + Nc[4] * t) * (g' + Nc[1] * q) * (f' + Nc[0] * p) * (Nc[4]' + j + t') * (p * s' + r * t' + s' * t') + (p * r + p * s' + q * t') * (i' + Nc[3] * s) * (j' + Nc[4] * t) * (f' + Nc[0] * p) * (Nc[0]' + f + p') * (Nc[1]' + g + q') * (Nc[2] + h + r') * (Nc[3]' + i + s') * (Nc[4]' + j + t') * (h' + Nc[2]' * r) * (g' + Nc[1] * q) + (q * r + q * s' + r * t') * (Nc[0]' + f + p') * (Nc[1]' + g + q') * (Nc[3] + i + s') * (j' + Nc[4] * t) * (Nc[2]' + h + r') * (Nc[4]' + j + t') * (f' + Nc[0] * p) * (i' + Nc[3]' * s) * (h' + Nc[2] * r) * (g' + Nc[1] * q)
+
+Coat Proteins:
+Nc String: [Nc[0], Nc[1], Nc[2]', Nc[3], Nc[4], Nc[5]', Nc[6]', Nc[7], Nc[8]', Nc[9]']
+Recruitment DNF: p * q + q * t' + s' * t'
+Nc String: [Nc[0]', Nc[1], Nc[2], Nc[3]', Nc[4]', Nc[5], Nc[6]', Nc[7]', Nc[8]', Nc[9]']
+Recruitment DNF: p * q + p * t' + r * t'
+Nc String: [Nc[0], Nc[1], Nc[2]', Nc[3]', Nc[4], Nc[5], Nc[6], Nc[7], Nc[8]', Nc[9]]
+Recruitment DNF: p * q + p * r + p * t'
+Formula: (h' + Nc[2]' * r) * (g' + Nc[1] * q) * (f' + Nc[0] * p) * (j' + Nc[4] * t) * (i' + Nc[3] * s) * (Nc[0]' + f + p') * (Nc[1]' + g + q') * (Nc[2] + h + r') * (Nc[3]' + i + s') * (Nc[4]' + j + t') * (p * q + q * t' + s' * t') + (Nc[0] + f + p') * (Nc[1]' + g + q') * (j' + Nc[4]' * t) * (p * q + p * t' + r * t') * (Nc[2]' + h + r') * (Nc[3] + i + s') * (g' + Nc[1] * q) * (h' + Nc[2] * r) * (Nc[4] + j + t') * (i' + Nc[3]' * s) * (f' + Nc[0]' * p) + (j' + Nc[4] * t) * (Nc[3] + i + s') * (h' + Nc[2]' * r) * (p * q + p * r + p * t') * (g' + Nc[1] * q) * (f' + Nc[0] * p) * (Nc[0]' + f + p') * (Nc[1]' + g + q') * (Nc[2] + h + r') * (Nc[4]' + j + t') * (i' + Nc[3]' * s)
+
+Coat Proteins:
+Nc String: [Nc[0], Nc[1]', Nc[2]', Nc[3], Nc[4]', Nc[5], Nc[6], Nc[7]', Nc[8]', Nc[9]]
+Recruitment DNF: p * r + p * s' + p * t'
+Nc String: [Nc[0]', Nc[1]', Nc[2]', Nc[3], Nc[4]', Nc[5]', Nc[6], Nc[7]', Nc[8], Nc[9]']
+Recruitment DNF: p * q + q * t' + r * s'
+Nc String: [Nc[0], Nc[1], Nc[2], Nc[3]', Nc[4], Nc[5], Nc[6]', Nc[7]', Nc[8], Nc[9]']
+Recruitment DNF: p * q + q * r + q * t'
+Formula: (Nc[2]' + h + r') * (j' + Nc[4] * t) * (h' + Nc[2] * r) * (i' + Nc[3]' * s) * (g' + Nc[1] * q) * (Nc[0]' + f + p') * (Nc[1]' + g + q') * (Nc[3] + i + s') * (Nc[4]' + j + t') * (f' + Nc[0] * p) * (p * q + q * r + q * t') + (p * r + p * s' + p * t') * (g' + Nc[1]' * q) * (Nc[1] + g + q') * (Nc[2] + h + r') * (h' + Nc[2]' * r) * (j' + Nc[4]' * t) * (Nc[3]' + i + s') * (Nc[4] + j + t') * (f' + Nc[0] * p) * (i' + Nc[3] * s) * (Nc[0]' + f + p') + (Nc[1] + g + q') * (Nc[3]' + i + s') * (Nc[4] + j + t') * (p * q + q * t' + r * s') * (h' + Nc[2]' * r) * (f' + Nc[0]' * p) * (g' + Nc[1]' * q) * (i' + Nc[3] * s) * (j' + Nc[4]' * t) * (Nc[0] + f + p') * (Nc[2] + h + r')
+
+Coat Proteins:
+Nc String: [Nc[0], Nc[1], Nc[2]', Nc[3], Nc[4], Nc[5]', Nc[6]', Nc[7], Nc[8]', Nc[9]]
+Recruitment DNF: p * t' + q * r + q * s'
+Nc String: [Nc[0]', Nc[1], Nc[2], Nc[3]', Nc[4], Nc[5]', Nc[6], Nc[7]', Nc[8], Nc[9]]
+Recruitment DNF: p * r + q * s' + r * s'
+Nc String: [Nc[0]', Nc[1]', Nc[2]', Nc[3]', Nc[4], Nc[5], Nc[6], Nc[7]', Nc[8]', Nc[9]]
+Recruitment DNF: p * r + q * r + q * s'
+Formula: (h' + Nc[2]' * r) * (j' + Nc[4] * t) * (g' + Nc[1] * q) * (p * t' + q * r + q * s') * (Nc[0]' + f + p') * (Nc[1]' + g + q') * (Nc[2] + h + r') * (Nc[3]' + i + s') * (i' + Nc[3] * s) * (f' + Nc[0] * p) * (Nc[4]' + j + t') + (i' + Nc[3]' * s) * (h' + Nc[2] * r) * (g' + Nc[1] * q) * (p * r + q * s' + r * s') * (f' + Nc[0]' * p) * (Nc[0] + f + p') * (Nc[1]' + g + q') * (Nc[2]' + h + r') * (Nc[3] + i + s') * (j' + Nc[4] * t) * (Nc[4]' + j + t') + (f' + Nc[0]' * p) * (Nc[0] + f + p') * (p * r + q * r + q * s') * (Nc[1] + g + q') * (g' + Nc[1]' * q) * (i' + Nc[3]' * s) * (Nc[2] + h + r') * (j' + Nc[4] * t) * (h' + Nc[2]' * r) * (Nc[3] + i + s') * (Nc[4]' + j + t')
+
+Coat Proteins:
+Nc String: [Nc[0], Nc[1], Nc[2], Nc[3], Nc[4], Nc[5]', Nc[6], Nc[7], Nc[8], Nc[9]']
+Recruitment DNF: q * r + r * s' + s' * t'
+Nc String: [Nc[0], Nc[1]', Nc[2]', Nc[3]', Nc[4], Nc[5], Nc[6]', Nc[7]', Nc[8], Nc[9]]
+Recruitment DNF: p * q + q * r + r * s'
+Nc String: [Nc[0]', Nc[1]', Nc[2], Nc[3]', Nc[4], Nc[5]', Nc[6], Nc[7], Nc[8]', Nc[9]]
+Recruitment DNF: q * t' + r * t' + s' * t'
+Formula: (j' + Nc[4] * t) * (i' + Nc[3]' * s) * (Nc[2]' + h + r') * (Nc[4]' + j + t') * (h' + Nc[2] * r) * (q * t' + r * t' + s' * t') * (f' + Nc[0]' * p) * (g' + Nc[1]' * q) * (Nc[0] + f + p') * (Nc[1] + g + q') * (Nc[3] + i + s') + (q * r + r * s' + s' * t') * (Nc[0]' + f + p') * (Nc[1]' + g + q') * (Nc[2]' + h + r') * (f' + Nc[0] * p) * (i' + Nc[3] * s) * (Nc[3]' + i + s') * (g' + Nc[1] * q) * (Nc[4]' + j + t') * (h' + Nc[2] * r) * (j' + Nc[4] * t) + (f' + Nc[0] * p) * (Nc[0]' + f + p') * (j' + Nc[4] * t) * (Nc[1] + g + q') * (Nc[2] + h + r') * (Nc[3] + i + s') * (p * q + q * r + r * s') * (h' + Nc[2]' * r) * (i' + Nc[3]' * s) * (g' + Nc[1]' * q) * (Nc[4]' + j + t')
+
+Coat Proteins:
+Nc String: [Nc[0], Nc[1]', Nc[2], Nc[3]', Nc[4]', Nc[5], Nc[6], Nc[7], Nc[8], Nc[9]]
+Recruitment DNF: q * s' + q * t' + s' * t'
+Nc String: [Nc[0], Nc[1], Nc[2]', Nc[3], Nc[4], Nc[5], Nc[6]', Nc[7], Nc[8], Nc[9]']
+Recruitment DNF: p * r + p * t' + r * t'
+Nc String: [Nc[0]', Nc[1]', Nc[2], Nc[3], Nc[4], Nc[5]', Nc[6], Nc[7]', Nc[8]', Nc[9]']
+Recruitment DNF: p * q + p * t' + q * r
+Formula: (h' + Nc[2] * r) * (i' + Nc[3] * s) * (Nc[0] + f + p') * (g' + Nc[1]' * q) * (Nc[1] + g + q') * (Nc[2]' + h + r') * (Nc[3]' + i + s') * (p * q + p * t' + q * r) * (f' + Nc[0]' * p) * (j' + Nc[4] * t) * (Nc[4]' + j + t') + (h' + Nc[2] * r) * (Nc[2]' + h + r') * (g' + Nc[1]' * q) * (j' + Nc[4]' * t) * (i' + Nc[3]' * s) * (q * s' + q * t' + s' * t') * (Nc[0]' + f + p') * (f' + Nc[0] * p) * (Nc[1] + g + q') * (Nc[3] + i + s') * (Nc[4] + j + t') + (g' + Nc[1] * q) * (Nc[0]' + f + p') * (h' + Nc[2]' * r) * (i' + Nc[3] * s) * (f' + Nc[0] * p) * (Nc[1]' + g + q') * (Nc[2] + h + r') * (Nc[3]' + i + s') * (p * r + p * t' + r * t') * (j' + Nc[4] * t) * (Nc[4]' + j + t')
+
+Coat Proteins:
+Nc String: [Nc[0]', Nc[1]', Nc[2]', Nc[3], Nc[4], Nc[5], Nc[6]', Nc[7]', Nc[8]', Nc[9]']
+Recruitment DNF: p * t' + q * t' + s' * t'
+Nc String: [Nc[0]', Nc[1], Nc[2]', Nc[3]', Nc[4], Nc[5]', Nc[6]', Nc[7], Nc[8]', Nc[9]]
+Recruitment DNF: p * r + q * r + r * s'
+Nc String: [Nc[0], Nc[1], Nc[2]', Nc[3]', Nc[4]', Nc[5], Nc[6], Nc[7], Nc[8]', Nc[9]]
+Recruitment DNF: p * r + p * s' + r * s'
+Formula: (f' + Nc[0]' * p) * (j' + Nc[4] * t) * (Nc[1]' + g + q') * (Nc[4]' + j + t') * (p * r + q * r + r * s') * (g' + Nc[1] * q) * (Nc[0] + f + p') * (Nc[2] + h + r') * (Nc[3] + i + s') * (i' + Nc[3]' * s) * (h' + Nc[2]' * r) + (Nc[0] + f + p') * (Nc[2] + h + r') * (Nc[3]' + i + s') * (h' + Nc[2]' * r) * (g' + Nc[1]' * q) * (j' + Nc[4] * t) * (p * t' + q * t' + s' * t') * (f' + Nc[0]' * p) * (Nc[1] + g + q') * (Nc[4]' + j + t') * (i' + Nc[3] * s) + (Nc[0]' + f + p') * (Nc[1]' + g + q') * (Nc[2] + h + r') * (p * r + p * s' + r * s') * (f' + Nc[0] * p) * (h' + Nc[2]' * r) * (g' + Nc[1] * q) * (Nc[3] + i + s') * (Nc[4] + j + t') * (i' + Nc[3]' * s) * (j' + Nc[4]' * t)
+
+Coat Proteins:
+Nc String: [Nc[0]', Nc[1]', Nc[2], Nc[3]', Nc[4]', Nc[5], Nc[6], Nc[7], Nc[8]', Nc[9]']
+Recruitment DNF: q * s' + q * t' + r * t'
+Nc String: [Nc[0], Nc[1], Nc[2], Nc[3], Nc[4], Nc[5], Nc[6], Nc[7], Nc[8]', Nc[9]']
+Recruitment DNF: q * s' + r * s' + s' * t'
+Nc String: [Nc[0], Nc[1]', Nc[2], Nc[3], Nc[4]', Nc[5]', Nc[6]', Nc[7]', Nc[8], Nc[9]']
+Recruitment DNF: p * q + q * s' + r * s'
+Formula: (i' + Nc[3] * s) * (j' + Nc[4]' * t) * (Nc[3]' + i + s') * (Nc[4] + j + t') * (p * q + q * s' + r * s') * (g' + Nc[1]' * q) * (Nc[0]' + f + p') * (Nc[2]' + h + r') * (f' + Nc[0] * p) * (h' + Nc[2] * r) * (Nc[1] + g + q') + (i' + Nc[3]' * s) * (Nc[0] + f + p') * (Nc[4] + j + t') * (g' + Nc[1]' * q) * (f' + Nc[0]' * p) * (h' + Nc[2] * r) * (Nc[1] + g + q') * (Nc[2]' + h + r') * (Nc[3] + i + s') * (q * s' + q * t' + r * t') * (j' + Nc[4]' * t) + (Nc[0]' + f + p') * (Nc[4]' + j + t') * (g' + Nc[1] * q) * (h' + Nc[2] * r) * (f' + Nc[0] * p) * (j' + Nc[4] * t) * (Nc[1]' + g + q') * (Nc[2]' + h + r') * (Nc[3]' + i + s') * (i' + Nc[3] * s) * (q * s' + r * s' + s' * t')
+
+Coat Proteins:
+Nc String: [Nc[0], Nc[1]', Nc[2], Nc[3], Nc[4]', Nc[5], Nc[6], Nc[7], Nc[8]', Nc[9]]
+Recruitment DNF: p * q + q * r + q * t'
+Nc String: [Nc[0]', Nc[1]', Nc[2]', Nc[3]', Nc[4]', Nc[5], Nc[6]', Nc[7], Nc[8]', Nc[9]]
+Recruitment DNF: p * t' + r * s' + s' * t'
+Nc String: [Nc[0]', Nc[1], Nc[2], Nc[3], Nc[4], Nc[5]', Nc[6], Nc[7]', Nc[8]', Nc[9]]
+Recruitment DNF: p * q + q * t' + r * t'
+Formula: (i' + Nc[3] * s) * (j' + Nc[4] * t) * (Nc[0] + f + p') * (Nc[1]' + g + q') * (Nc[4]' + j + t') * (g' + Nc[1] * q) * (Nc[2]' + h + r') * (Nc[3]' + i + s') * (f' + Nc[0]' * p) * (p * q + q * t' + r * t') * (h' + Nc[2] * r) + (f' + Nc[0] * p) * (p * q + q * r + q * t') * (g' + Nc[1]' * q) * (h' + Nc[2] * r) * (Nc[0]' + f + p') * (Nc[1] + g + q') * (Nc[2]' + h + r') * (Nc[3]' + i + s') * (Nc[4] + j + t') * (i' + Nc[3] * s) * (j' + Nc[4]' * t) + (p * t' + r * s' + s' * t') * (Nc[0] + f + p') * (Nc[1] + g + q') * (Nc[2] + h + r') * (h' + Nc[2]' * r) * (Nc[4] + j + t') * (f' + Nc[0]' * p) * (i' + Nc[3]' * s) * (j' + Nc[4]' * t) * (g' + Nc[1]' * q) * (Nc[3] + i + s')
+
+Coat Proteins:
+Nc String: [Nc[0], Nc[1]', Nc[2]', Nc[3]', Nc[4], Nc[5]', Nc[6]', Nc[7], Nc[8], Nc[9]]
+Recruitment DNF: p * s' + q * t' + r * t'
+Nc String: [Nc[0]', Nc[1], Nc[2], Nc[3]', Nc[4]', Nc[5], Nc[6]', Nc[7]', Nc[8], Nc[9]']
+Recruitment DNF: p * q + r * t' + s' * t'
+Nc String: [Nc[0], Nc[1]', Nc[2], Nc[3]', Nc[4]', Nc[5], Nc[6]', Nc[7]', Nc[8]', Nc[9]']
+Recruitment DNF: p * t' + r * t' + s' * t'
+Formula: (f' + Nc[0]' * p) * (i' + Nc[3]' * s) * (Nc[0] + f + p') * (Nc[1]' + g + q') * (j' + Nc[4]' * t) * (h' + Nc[2] * r) * (Nc[2]' + h + r') * (Nc[3] + i + s') * (g' + Nc[1] * q) * (p * q + r * t' + s' * t') * (Nc[4] + j + t') + (g' + Nc[1]' * q) * (Nc[0]' + f + p') * (Nc[1] + g + q') * (h' + Nc[2]' * r) * (Nc[4]' + j + t') * (p * s' + q * t' + r * t') * (j' + Nc[4] * t) * (Nc[2] + h + r') * (Nc[3] + i + s') * (f' + Nc[0] * p) * (i' + Nc[3]' * s) + (p * t' + r * t' + s' * t') * (Nc[0]' + f + p') * (Nc[1] + g + q') * (Nc[3] + i + s') * (g' + Nc[1]' * q) * (f' + Nc[0] * p) * (h' + Nc[2] * r) * (Nc[2]' + h + r') * (j' + Nc[4]' * t) * (i' + Nc[3]' * s) * (Nc[4] + j + t')
+
+Coat Proteins:
+Nc String: [Nc[0]', Nc[1], Nc[2]', Nc[3], Nc[4], Nc[5]', Nc[6]', Nc[7]', Nc[8], Nc[9]']
+Recruitment DNF: p * s' + p * t' + s' * t'
+Nc String: [Nc[0], Nc[1], Nc[2]', Nc[3]', Nc[4], Nc[5]', Nc[6]', Nc[7]', Nc[8]', Nc[9]]
+Recruitment DNF: p * t' + q * r + q * s'
+Nc String: [Nc[0], Nc[1]', Nc[2], Nc[3], Nc[4]', Nc[5], Nc[6], Nc[7]', Nc[8]', Nc[9]]
+Recruitment DNF: p * r + p * t' + r * s'
+Formula: (j' + Nc[4]' * t) * (Nc[3]' + i + s') * (Nc[4] + j + t') * (i' + Nc[3] * s) * (f' + Nc[0] * p) * (p * r + p * t' + r * s') * (g' + Nc[1]' * q) * (Nc[0]' + f + p') * (Nc[1] + g + q') * (Nc[2]' + h + r') * (h' + Nc[2] * r) + (Nc[0]' + f + p') * (Nc[4]' + j + t') * (i' + Nc[3]' * s) * (h' + Nc[2]' * r) * (j' + Nc[4] * t) * (g' + Nc[1] * q) * (f' + Nc[0] * p) * (Nc[1]' + g + q') * (Nc[2] + h + r') * (Nc[3] + i + s') * (p * t' + q * r + q * s') + (j' + Nc[4] * t) * (Nc[0] + f + p') * (f' + Nc[0]' * p) * (Nc[1]' + g + q') * (Nc[2] + h + r') * (p * s' + p * t' + s' * t') * (i' + Nc[3] * s) * (Nc[3]' + i + s') * (Nc[4]' + j + t') * (h' + Nc[2]' * r) * (g' + Nc[1] * q)
+
+Coat Proteins:
+Nc String: [Nc[0]', Nc[1]', Nc[2]', Nc[3]', Nc[4]', Nc[5]', Nc[6], Nc[7], Nc[8], Nc[9]']
+Recruitment DNF: p * t' + q * r + q * t'
+Nc String: [Nc[0], Nc[1]', Nc[2]', Nc[3], Nc[4]', Nc[5]', Nc[6], Nc[7], Nc[8], Nc[9]]
+Recruitment DNF: p * t' + q * r + r * s'
+Nc String: [Nc[0], Nc[1], Nc[2]', Nc[3]', Nc[4], Nc[5]', Nc[6], Nc[7]', Nc[8]', Nc[9]']
+Recruitment DNF: p * r + q * r + r * t'
+Formula: (p * t' + q * r + q * t') * (g' + Nc[1]' * q) * (f' + Nc[0]' * p) * (h' + Nc[2]' * r) * (Nc[0] + f + p') * (Nc[1] + g + q') * (Nc[2] + h + r') * (Nc[3] + i + s') * (Nc[4] + j + t') * (j' + Nc[4]' * t) * (i' + Nc[3]' * s) + (j' + Nc[4]' * t) * (g' + Nc[1]' * q) * (f' + Nc[0] * p) * (Nc[1] + g + q') * (Nc[2] + h + r') * (p * t' + q * r + r * s') * (h' + Nc[2]' * r) * (i' + Nc[3] * s) * (Nc[0]' + f + p') * (Nc[3]' + i + s') * (Nc[4] + j + t') + (p * r + q * r + r * t') * (i' + Nc[3]' * s) * (Nc[0]' + f + p') * (g' + Nc[1] * q) * (Nc[3] + i + s') * (j' + Nc[4] * t) * (h' + Nc[2]' * r) * (f' + Nc[0] * p) * (Nc[1]' + g + q') * (Nc[2] + h + r') * (Nc[4]' + j + t')
+
+Coat Proteins:
+Nc String: [Nc[0]', Nc[1]', Nc[2]', Nc[3]', Nc[4], Nc[5], Nc[6], Nc[7], Nc[8]', Nc[9]']
+Recruitment DNF: p * s' + q * r + s' * t'
+Nc String: [Nc[0]', Nc[1], Nc[2], Nc[3], Nc[4], Nc[5]', Nc[6]', Nc[7]', Nc[8]', Nc[9]]
+Recruitment DNF: p * q + r * s' + s' * t'
+Nc String: [Nc[0]', Nc[1]', Nc[2], Nc[3], Nc[4]', Nc[5]', Nc[6]', Nc[7], Nc[8], Nc[9]]
+Recruitment DNF: q * r + r * s' + s' * t'
+Formula: (j' + Nc[4] * t) * (Nc[0] + f + p') * (Nc[1]' + g + q') * (Nc[2]' + h + r') * (Nc[4]' + j + t') * (g' + Nc[1] * q) * (p * q + r * s' + s' * t') * (i' + Nc[3] * s) * (h' + Nc[2] * r) * (Nc[3]' + i + s') * (f' + Nc[0]' * p) + (j' + Nc[4]' * t) * (Nc[0] + f + p') * (i' + Nc[3] * s) * (Nc[1] + g + q') * (Nc[2]' + h + r') * (h' + Nc[2] * r) * (Nc[3]' + i + s') * (Nc[4] + j + t') * (f' + Nc[0]' * p) * (g' + Nc[1]' * q) * (q * r + r * s' + s' * t') + (g' + Nc[1]' * q) * (Nc[0] + f + p') * (Nc[1] + g + q') * (Nc[2] + h + r') * (j' + Nc[4] * t) * (f' + Nc[0]' * p) * (h' + Nc[2]' * r) * (i' + Nc[3]' * s) * (Nc[3] + i + s') * (Nc[4]' + j + t') * (p * s' + q * r + s' * t')
+
+Coat Proteins:
+Nc String: [Nc[0], Nc[1], Nc[2]', Nc[3], Nc[4]', Nc[5], Nc[6]', Nc[7], Nc[8]', Nc[9]]
+Recruitment DNF: p * t' + q * r + q * t'
+Nc String: [Nc[0]', Nc[1], Nc[2]', Nc[3], Nc[4]', Nc[5], Nc[6], Nc[7]', Nc[8]', Nc[9]']
+Recruitment DNF: p * t' + q * r + q * s'
+Nc String: [Nc[0]', Nc[1]', Nc[2], Nc[3], Nc[4]', Nc[5]', Nc[6], Nc[7], Nc[8]', Nc[9]']
+Recruitment DNF: p * r + q * s' + r * s'
+Formula: (Nc[2]' + h + r') * (g' + Nc[1]' * q) * (Nc[1] + g + q') * (Nc[3]' + i + s') * (Nc[4] + j + t') * (j' + Nc[4]' * t) * (f' + Nc[0]' * p) * (h' + Nc[2] * r) * (Nc[0] + f + p') * (i' + Nc[3] * s) * (p * r + q * s' + r * s') + (Nc[1]' + g + q') * (i' + Nc[3] * s) * (Nc[0]' + f + p') * (Nc[2] + h + r') * (Nc[3]' + i + s') * (h' + Nc[2]' * r) * (Nc[4] + j + t') * (g' + Nc[1] * q) * (j' + Nc[4]' * t) * (p * t' + q * r + q * t') * (f' + Nc[0] * p) + (j' + Nc[4]' * t) * (Nc[0] + f + p') * (Nc[2] + h + r') * (Nc[3]' + i + s') * (Nc[4] + j + t') * (p * t' + q * r + q * s') * (h' + Nc[2]' * r) * (i' + Nc[3] * s) * (f' + Nc[0]' * p) * (Nc[1]' + g + q') * (g' + Nc[1] * q)
+
+Coat Proteins:
+Nc String: [Nc[0], Nc[1], Nc[2], Nc[3]', Nc[4]', Nc[5]', Nc[6]', Nc[7]', Nc[8]', Nc[9]]
+Recruitment DNF: q * s' + q * t' + r * s'
+Nc String: [Nc[0]', Nc[1]', Nc[2]', Nc[3]', Nc[4]', Nc[5], Nc[6], Nc[7]', Nc[8], Nc[9]']
+Recruitment DNF: p * r + q * s' + s' * t'
+Nc String: [Nc[0], Nc[1], Nc[2]', Nc[3]', Nc[4]', Nc[5]', Nc[6], Nc[7]', Nc[8], Nc[9]']
+Recruitment DNF: p * t' + q * r + s' * t'
+Formula: (Nc[0]' + f + p') * (Nc[3] + i + s') * (f' + Nc[0] * p) * (j' + Nc[4]' * t) * (h' + Nc[2] * r) * (q * s' + q * t' + r * s') * (Nc[2]' + h + r') * (Nc[4] + j + t') * (g' + Nc[1] * q) * (i' + Nc[3]' * s) * (Nc[1]' + g + q') + (Nc[1] + g + q') * (g' + Nc[1]' * q) * (f' + Nc[0]' * p) * (Nc[0] + f + p') * (Nc[2] + h + r') * (p * r + q * s' + s' * t') * (h' + Nc[2]' * r) * (Nc[3] + i + s') * (Nc[4] + j + t') * (j' + Nc[4]' * t) * (i' + Nc[3]' * s) + (p * t' + q * r + s' * t') * (g' + Nc[1] * q) * (f' + Nc[0] * p) * (Nc[1]' + g + q') * (Nc[2] + h + r') * (i' + Nc[3]' * s) * (Nc[3] + i + s') * (Nc[4] + j + t') * (h' + Nc[2]' * r) * (j' + Nc[4]' * t) * (Nc[0]' + f + p')
+
+Coat Proteins:
+Nc String: [Nc[0], Nc[1]', Nc[2]', Nc[3], Nc[4]', Nc[5]', Nc[6]', Nc[7]', Nc[8]', Nc[9]]
+Recruitment DNF: p * t' + q * t' + s' * t'
+Nc String: [Nc[0], Nc[1]', Nc[2]', Nc[3]', Nc[4]', Nc[5], Nc[6]', Nc[7], Nc[8]', Nc[9]']
+Recruitment DNF: p * r + p * t' + q * r
+Nc String: [Nc[0], Nc[1]', Nc[2], Nc[3]', Nc[4]', Nc[5]', Nc[6]', Nc[7]', Nc[8]', Nc[9]]
+Recruitment DNF: r * s' + r * t' + s' * t'
+Formula: (h' + Nc[2] * r) * (f' + Nc[0] * p) * (Nc[0]' + f + p') * (Nc[1] + g + q') * (Nc[2]' + h + r') * (Nc[3] + i + s') * (Nc[4] + j + t') * (g' + Nc[1]' * q) * (i' + Nc[3]' * s) * (j' + Nc[4]' * t) * (r * s' + r * t' + s' * t') + (Nc[1] + g + q') * (h' + Nc[2]' * r) * (Nc[2] + h + r') * (Nc[3] + i + s') * (g' + Nc[1]' * q) * (i' + Nc[3]' * s) * (Nc[4] + j + t') * (j' + Nc[4]' * t) * (Nc[0]' + f + p') * (p * r + p * t' + q * r) * (f' + Nc[0] * p) + (p * t' + q * t' + s' * t') * (g' + Nc[1]' * q) * (Nc[2] + h + r') * (Nc[3]' + i + s') * (h' + Nc[2]' * r) * (i' + Nc[3] * s) * (Nc[0]' + f + p') * (Nc[1] + g + q') * (j' + Nc[4]' * t) * (f' + Nc[0] * p) * (Nc[4] + j + t')
+
+Coat Proteins:
+Nc String: [Nc[0]', Nc[1]', Nc[2]', Nc[3]', Nc[4], Nc[5], Nc[6]', Nc[7], Nc[8]', Nc[9]]
+Recruitment DNF: p * s' + q * t' + r * s'
+Nc String: [Nc[0], Nc[1]', Nc[2], Nc[3], Nc[4], Nc[5]', Nc[6]', Nc[7], Nc[8], Nc[9]]
+Recruitment DNF: p * s' + p * t' + q * s'
+Nc String: [Nc[0]', Nc[1], Nc[2]', Nc[3], Nc[4]', Nc[5], Nc[6]', Nc[7], Nc[8], Nc[9]]
+Recruitment DNF: q * s' + r * s' + r * t'
+Formula: (i' + Nc[3] * s) * (j' + Nc[4] * t) * (f' + Nc[0] * p) * (p * s' + p * t' + q * s') * (Nc[0]' + f + p') * (Nc[1] + g + q') * (g' + Nc[1]' * q) * (Nc[2]' + h + r') * (Nc[3]' + i + s') * (Nc[4]' + j + t') * (h' + Nc[2] * r) + (Nc[0] + f + p') * (Nc[1]' + g + q') * (Nc[2] + h + r') * (Nc[3]' + i + s') * (h' + Nc[2]' * r) * (i' + Nc[3] * s) * (g' + Nc[1] * q) * (f' + Nc[0]' * p) * (Nc[4] + j + t') * (j' + Nc[4]' * t) * (q * s' + r * s' + r * t') + (Nc[0] + f + p') * (p * s' + q * t' + r * s') * (j' + Nc[4] * t) * (g' + Nc[1]' * q) * (f' + Nc[0]' * p) * (Nc[1] + g + q') * (Nc[2] + h + r') * (Nc[3] + i + s') * (Nc[4]' + j + t') * (i' + Nc[3]' * s) * (h' + Nc[2]' * r)
+
+Coat Proteins:
+Nc String: [Nc[0], Nc[1]', Nc[2]', Nc[3], Nc[4]', Nc[5], Nc[6], Nc[7]', Nc[8], Nc[9]']
+Recruitment DNF: p * t' + r * s' + r * t'
+Nc String: [Nc[0], Nc[1]', Nc[2]', Nc[3]', Nc[4], Nc[5], Nc[6]', Nc[7]', Nc[8], Nc[9]']
+Recruitment DNF: p * r + r * s' + r * t'
+Nc String: [Nc[0], Nc[1], Nc[2]', Nc[3], Nc[4]', Nc[5], Nc[6]', Nc[7]', Nc[8]', Nc[9]']
+Recruitment DNF: p * q + r * t' + s' * t'
+Formula: (h' + Nc[2]' * r) * (Nc[0]' + f + p') * (Nc[1] + g + q') * (Nc[2] + h + r') * (f' + Nc[0] * p) * (i' + Nc[3] * s) * (g' + Nc[1]' * q) * (Nc[3]' + i + s') * (Nc[4] + j + t') * (j' + Nc[4]' * t) * (p * t' + r * s' + r * t') + (f' + Nc[0] * p) * (p * r + r * s' + r * t') * (Nc[2] + h + r') * (g' + Nc[1]' * q) * (h' + Nc[2]' * r) * (Nc[0]' + f + p') * (Nc[1] + g + q') * (Nc[4]' + j + t') * (i' + Nc[3]' * s) * (j' + Nc[4] * t) * (Nc[3] + i + s') + (p * q + r * t' + s' * t') * (i' + Nc[3] * s) * (Nc[0]' + f + p') * (Nc[1]' + g + q') * (f' + Nc[0] * p) * (j' + Nc[4]' * t) * (g' + Nc[1] * q) * (Nc[2] + h + r') * (Nc[3]' + i + s') * (Nc[4] + j + t') * (h' + Nc[2]' * r)
+
+Coat Proteins:
+Nc String: [Nc[0]', Nc[1], Nc[2], Nc[3]', Nc[4]', Nc[5]', Nc[6]', Nc[7]', Nc[8]', Nc[9]]
+Recruitment DNF: p * r + q * s' + q * t'
+Nc String: [Nc[0], Nc[1], Nc[2], Nc[3], Nc[4], Nc[5], Nc[6], Nc[7], Nc[8], Nc[9]]
+Recruitment DNF: q * r + q * s' + s' * t'
+Nc String: [Nc[0], Nc[1], Nc[2], Nc[3]', Nc[4], Nc[5], Nc[6], Nc[7], Nc[8]', Nc[9]]
+Recruitment DNF: p * t' + q * r + r * t'
+Formula: (j' + Nc[4] * t) * (i' + Nc[3] * s) * (h' + Nc[2] * r) * (f' + Nc[0] * p) * (Nc[0]' + f + p') * (Nc[1]' + g + q') * (Nc[2]' + h + r') * (Nc[3]' + i + s') * (Nc[4]' + j + t') * (g' + Nc[1] * q) * (q * r + q * s' + s' * t') + (i' + Nc[3]' * s) * (j' + Nc[4] * t) * (Nc[0]' + f + p') * (Nc[2]' + h + r') * (Nc[3] + i + s') * (h' + Nc[2] * r) * (g' + Nc[1] * q) * (f' + Nc[0] * p) * (Nc[1]' + g + q') * (Nc[4]' + j + t') * (p * t' + q * r + r * t') + (i' + Nc[3]' * s) * (p * r + q * s' + q * t') * (h' + Nc[2] * r) * (Nc[0] + f + p') * (Nc[1]' + g + q') * (Nc[2]' + h + r') * (Nc[3] + i + s') * (Nc[4] + j + t') * (j' + Nc[4]' * t) * (f' + Nc[0]' * p) * (g' + Nc[1] * q)
+
+Coat Proteins:
+Nc String: [Nc[0]', Nc[1]', Nc[2], Nc[3], Nc[4], Nc[5]', Nc[6]', Nc[7]', Nc[8]', Nc[9]']
+Recruitment DNF: p * q + r * s' + s' * t'
+Nc String: [Nc[0], Nc[1]', Nc[2], Nc[3], Nc[4]', Nc[5]', Nc[6], Nc[7], Nc[8], Nc[9]]
+Recruitment DNF: p * r + q * s' + r * s'
+Nc String: [Nc[0]', Nc[1], Nc[2]', Nc[3], Nc[4], Nc[5]', Nc[6], Nc[7]', Nc[8], Nc[9]]
+Recruitment DNF: p * q + p * t' + q * s'
+Formula: (j' + Nc[4] * t) * (f' + Nc[0]' * p) * (h' + Nc[2] * r) * (i' + Nc[3] * s) * (Nc[0] + f + p') * (Nc[1] + g + q') * (Nc[2]' + h + r') * (Nc[3]' + i + s') * (p * q + r * s' + s' * t') * (Nc[4]' + j + t') * (g' + Nc[1]' * q) + (p * q + p * t' + q * s') * (f' + Nc[0]' * p) * (Nc[0] + f + p') * (Nc[1]' + g + q') * (Nc[2] + h + r') * (Nc[3]' + i + s') * (h' + Nc[2]' * r) * (Nc[4]' + j + t') * (g' + Nc[1] * q) * (i' + Nc[3] * s) * (j' + Nc[4] * t) + (g' + Nc[1]' * q) * (Nc[0]' + f + p') * (i' + Nc[3] * s) * (p * r + q * s' + r * s') * (f' + Nc[0] * p) * (h' + Nc[2] * r) * (Nc[1] + g + q') * (Nc[2]' + h + r') * (Nc[3]' + i + s') * (Nc[4] + j + t') * (j' + Nc[4]' * t)
+
+Coat Proteins:
+Nc String: [Nc[0], Nc[1], Nc[2], Nc[3], Nc[4]', Nc[5], Nc[6], Nc[7], Nc[8]', Nc[9]']
+Recruitment DNF: p * s' + q * s' + s' * t'
+Nc String: [Nc[0], Nc[1], Nc[2], Nc[3]', Nc[4]', Nc[5]', Nc[6]', Nc[7]', Nc[8], Nc[9]]
+Recruitment DNF: p * r + r * s' + r * t'
+Nc String: [Nc[0]', Nc[1]', Nc[2], Nc[3], Nc[4], Nc[5]', Nc[6], Nc[7]', Nc[8], Nc[9]]
+Recruitment DNF: q * t' + r * s' + s' * t'
+Formula: (f' + Nc[0] * p) * (Nc[0]' + f + p') * (j' + Nc[4]' * t) * (Nc[1]' + g + q') * (Nc[3] + i + s') * (Nc[4] + j + t') * (i' + Nc[3]' * s) * (Nc[2]' + h + r') * (g' + Nc[1] * q) * (h' + Nc[2] * r) * (p * r + r * s' + r * t') + (j' + Nc[4]' * t) * (Nc[3]' + i + s') * (i' + Nc[3] * s) * (Nc[4] + j + t') * (p * s' + q * s' + s' * t') * (g' + Nc[1] * q) * (h' + Nc[2] * r) * (Nc[0]' + f + p') * (Nc[1]' + g + q') * (Nc[2]' + h + r') * (f' + Nc[0] * p) + (j' + Nc[4] * t) * (Nc[0] + f + p') * (Nc[4]' + j + t') * (i' + Nc[3] * s) * (Nc[1] + g + q') * (f' + Nc[0]' * p) * (Nc[2]' + h + r') * (g' + Nc[1]' * q) * (h' + Nc[2] * r) * (Nc[3]' + i + s') * (q * t' + r * s' + s' * t')
+
+Coat Proteins:
+Nc String: [Nc[0], Nc[1]', Nc[2], Nc[3], Nc[4]', Nc[5], Nc[6], Nc[7], Nc[8]', Nc[9]']
+Recruitment DNF: q * s' + q * t' + s' * t'
+Nc String: [Nc[0]', Nc[1]', Nc[2]', Nc[3], Nc[4], Nc[5], Nc[6], Nc[7]', Nc[8], Nc[9]]
+Recruitment DNF: p * s' + q * s' + q * t'
+Nc String: [Nc[0]', Nc[1], Nc[2]', Nc[3]', Nc[4], Nc[5]', Nc[6], Nc[7], Nc[8], Nc[9]']
+Recruitment DNF: p * q + p * s' + s' * t'
+Formula: (Nc[2]' + h + r') * (Nc[3]' + i + s') * (g' + Nc[1]' * q) * (Nc[0]' + f + p') * (f' + Nc[0] * p) * (q * s' + q * t' + s' * t') * (h' + Nc[2] * r) * (Nc[1] + g + q') * (Nc[4] + j + t') * (j' + Nc[4]' * t) * (i' + Nc[3] * s) + (p * q + p * s' + s' * t') * (h' + Nc[2]' * r) * (Nc[0] + f + p') * (Nc[1]' + g + q') * (Nc[2] + h + r') * (f' + Nc[0]' * p) * (g' + Nc[1] * q) * (Nc[3] + i + s') * (j' + Nc[4] * t) * (i' + Nc[3]' * s) * (Nc[4]' + j + t') + (p * s' + q * s' + q * t') * (f' + Nc[0]' * p) * (h' + Nc[2]' * r) * (j' + Nc[4] * t) * (Nc[0] + f + p') * (Nc[1] + g + q') * (Nc[2] + h + r') * (Nc[3]' + i + s') * (g' + Nc[1]' * q) * (Nc[4]' + j + t') * (i' + Nc[3] * s)
+
+Coat Proteins:
+Nc String: [Nc[0], Nc[1]', Nc[2]', Nc[3]', Nc[4], Nc[5], Nc[6], Nc[7], Nc[8]', Nc[9]]
+Recruitment DNF: p * q + p * s' + r * s'
+Nc String: [Nc[0], Nc[1]', Nc[2], Nc[3]', Nc[4], Nc[5], Nc[6], Nc[7]', Nc[8]', Nc[9]']
+Recruitment DNF: q * r + r * t' + s' * t'
+Nc String: [Nc[0], Nc[1], Nc[2]', Nc[3]', Nc[4], Nc[5], Nc[6], Nc[7]', Nc[8]', Nc[9]']
+Recruitment DNF: p * r + p * t' + s' * t'
+Formula: (j' + Nc[4] * t) * (Nc[2]' + h + r') * (i' + Nc[3]' * s) * (g' + Nc[1]' * q) * (Nc[0]' + f + p') * (Nc[1] + g + q') * (Nc[3] + i + s') * (Nc[4]' + j + t') * (f' + Nc[0] * p) * (h' + Nc[2] * r) * (q * r + r * t' + s' * t') + (Nc[1]' + g + q') * (h' + Nc[2]' * r) * (Nc[0]' + f + p') * (j' + Nc[4] * t) * (Nc[2] + h + r') * (Nc[3] + i + s') * (Nc[4]' + j + t') * (g' + Nc[1] * q) * (i' + Nc[3]' * s) * (f' + Nc[0] * p) * (p * r + p * t' + s' * t') + (j' + Nc[4] * t) * (Nc[0]' + f + p') * (Nc[1] + g + q') * (p * q + p * s' + r * s') * (h' + Nc[2]' * r) * (Nc[2] + h + r') * (g' + Nc[1]' * q) * (f' + Nc[0] * p) * (Nc[3] + i + s') * (i' + Nc[3]' * s) * (Nc[4]' + j + t')
+
+Coat Proteins:
+Nc String: [Nc[0]', Nc[1], Nc[2], Nc[3], Nc[4]', Nc[5], Nc[6]', Nc[7], Nc[8], Nc[9]']
+Recruitment DNF: r * s' + r * t' + s' * t'
+Nc String: [Nc[0], Nc[1], Nc[2], Nc[3]', Nc[4]', Nc[5]', Nc[6]', Nc[7], Nc[8], Nc[9]']
+Recruitment DNF: p * r + q * r + q * t'
+Nc String: [Nc[0]', Nc[1]', Nc[2], Nc[3], Nc[4]', Nc[5]', Nc[6]', Nc[7]', Nc[8], Nc[9]]
+Recruitment DNF: p * t' + q * t' + r * t'
+Formula: (Nc[0] + f + p') * (Nc[1]' + g + q') * (Nc[2]' + h + r') * (f' + Nc[0]' * p) * (r * s' + r * t' + s' * t') * (h' + Nc[2] * r) * (g' + Nc[1] * q) * (Nc[3]' + i + s') * (Nc[4] + j + t') * (i' + Nc[3] * s) * (j' + Nc[4]' * t) + (p * r + q * r + q * t') * (Nc[0]' + f + p') * (Nc[1]' + g + q') * (Nc[2]' + h + r') * (Nc[3] + i + s') * (j' + Nc[4]' * t) * (h' + Nc[2] * r) * (f' + Nc[0] * p) * (Nc[4] + j + t') * (i' + Nc[3]' * s) * (g' + Nc[1] * q) + (p * t' + q * t' + r * t') * (i' + Nc[3] * s) * (Nc[1] + g + q') * (j' + Nc[4]' * t) * (f' + Nc[0]' * p) * (Nc[0] + f + p') * (Nc[2]' + h + r') * (Nc[3]' + i + s') * (h' + Nc[2] * r) * (Nc[4] + j + t') * (g' + Nc[1]' * q)
+
+Coat Proteins:
+Nc String: [Nc[0], Nc[1], Nc[2]', Nc[3], Nc[4], Nc[5]', Nc[6]', Nc[7], Nc[8], Nc[9]]
+Recruitment DNF: p * q + q * r + r * t'
+Nc String: [Nc[0], Nc[1]', Nc[2], Nc[3]', Nc[4]', Nc[5], Nc[6], Nc[7], Nc[8]', Nc[9]']
+Recruitment DNF: p * q + q * s' + r * t'
+Nc String: [Nc[0], Nc[1]', Nc[2]', Nc[3]', Nc[4], Nc[5], Nc[6], Nc[7]', Nc[8]', Nc[9]']
+Recruitment DNF: p * q + p * t' + q * r
+Formula: (f' + Nc[0] * p) * (h' + Nc[2] * r) * (Nc[2]' + h + r') * (Nc[4] + j + t') * (g' + Nc[1]' * q) * (j' + Nc[4]' * t) * (Nc[1] + g + q') * (Nc[3] + i + s') * (i' + Nc[3]' * s) * (Nc[0]' + f + p') * (p * q + q * s' + r * t') + (p * q + p * t' + q * r) * (Nc[0]' + f + p') * (i' + Nc[3]' * s) * (Nc[1] + g + q') * (Nc[2] + h + r') * (Nc[4]' + j + t') * (g' + Nc[1]' * q) * (Nc[3] + i + s') * (f' + Nc[0] * p) * (h' + Nc[2]' * r) * (j' + Nc[4] * t) + (g' + Nc[1] * q) * (j' + Nc[4] * t) * (f' + Nc[0] * p) * (h' + Nc[2]' * r) * (Nc[0]' + f + p') * (Nc[1]' + g + q') * (Nc[2] + h + r') * (i' + Nc[3] * s) * (Nc[3]' + i + s') * (Nc[4]' + j + t') * (p * q + q * r + r * t')
+
+Coat Proteins:
+Nc String: [Nc[0], Nc[1], Nc[2], Nc[3]', Nc[4]', Nc[5], Nc[6]', Nc[7]', Nc[8], Nc[9]]
+Recruitment DNF: q * t' + r * s' + s' * t'
+Nc String: [Nc[0], Nc[1], Nc[2]', Nc[3], Nc[4], Nc[5]', Nc[6], Nc[7], Nc[8], Nc[9]']
+Recruitment DNF: p * r + q * t' + r * t'
+Nc String: [Nc[0], Nc[1], Nc[2], Nc[3]', Nc[4], Nc[5], Nc[6]', Nc[7]', Nc[8], Nc[9]']
+Recruitment DNF: p * r + q * s' + r * s'
+Formula: (Nc[0]' + f + p') * (q * t' + r * s' + s' * t') * (f' + Nc[0] * p) * (Nc[1]' + g + q') * (g' + Nc[1] * q) * (Nc[2]' + h + r') * (h' + Nc[2] * r) * (Nc[3] + i + s') * (i' + Nc[3]' * s) * (Nc[4] + j + t') * (j' + Nc[4]' * t) + (p * r + q * t' + r * t') * (Nc[0]' + f + p') * (f' + Nc[0] * p) * (Nc[1]' + g + q') * (g' + Nc[1] * q) * (Nc[2] + h + r') * (h' + Nc[2]' * r) * (Nc[3]' + i + s') * (i' + Nc[3] * s) * (Nc[4]' + j + t') * (j' + Nc[4] * t) + (p * r + q * s' + r * s') * (Nc[0]' + f + p') * (f' + Nc[0] * p) * (Nc[1]' + g + q') * (g' + Nc[1] * q) * (Nc[2]' + h + r') * (h' + Nc[2] * r) * (Nc[3] + i + s') * (i' + Nc[3]' * s) * (Nc[4]' + j + t') * (j' + Nc[4] * t)
+
+Coat Proteins:
+Nc String: [Nc[0], Nc[1]', Nc[2], Nc[3], Nc[4]', Nc[5], Nc[6]', Nc[7], Nc[8], Nc[9]]
+Recruitment DNF: p * t' + r * s' + s' * t'
+Nc String: [Nc[0], Nc[1]', Nc[2]', Nc[3]', Nc[4], Nc[5]', Nc[6], Nc[7]', Nc[8]', Nc[9]]
+Recruitment DNF: p * r + p * s' + q * s'
+Nc String: [Nc[0], Nc[1], Nc[2], Nc[3], Nc[4], Nc[5]', Nc[6]', Nc[7], Nc[8]', Nc[9]]
+Recruitment DNF: p * r + q * s' + s' * t'
+Formula: (j' + Nc[4]' * t) * (Nc[2]' + h + r') * (Nc[3]' + i + s') * (Nc[4] + j + t') * (g' + Nc[1]' * q) * (i' + Nc[3] * s) * (h' + Nc[2] * r) * (Nc[1] + g + q') * (p * t' + r * s' + s' * t') * (Nc[0]' + f + p') * (f' + Nc[0] * p) + (Nc[0]' + f + p') * (f' + Nc[0] * p) * (Nc[1] + g + q') * (g' + Nc[1]' * q) * (Nc[2] + h + r') * (h' + Nc[2]' * r) * (Nc[3] + i + s') * (i' + Nc[3]' * s) * (Nc[4]' + j + t') * (j' + Nc[4] * t) * (p * r + p * s' + q * s') + (Nc[0]' + f + p') * (f' + Nc[0] * p) * (Nc[1]' + g + q') * (g' + Nc[1] * q) * (Nc[2]' + h + r') * (h' + Nc[2] * r) * (Nc[3]' + i + s') * (i' + Nc[3] * s) * (Nc[4]' + j + t') * (j' + Nc[4] * t) * (p * r + q * s' + s' * t')
+
+Coat Proteins:
+Nc String: [Nc[0], Nc[1]', Nc[2], Nc[3]', Nc[4]', Nc[5], Nc[6], Nc[7], Nc[8], Nc[9]']
+Recruitment DNF: p * t' + r * s' + s' * t'
+Nc String: [Nc[0], Nc[1]', Nc[2], Nc[3]', Nc[4], Nc[5]', Nc[6], Nc[7], Nc[8], Nc[9]]
+Recruitment DNF: p * t' + q * t' + r * t'
+Nc String: [Nc[0]', Nc[1], Nc[2]', Nc[3], Nc[4], Nc[5]', Nc[6]', Nc[7]', Nc[8]', Nc[9]']
+Recruitment DNF: p * s' + q * t' + r * s'
+Formula: (p * t' + r * s' + s' * t') * (Nc[0]' + f + p') * (f' + Nc[0] * p) * (Nc[1] + g + q') * (g' + Nc[1]' * q) * (Nc[2]' + h + r') * (h' + Nc[2] * r) * (Nc[3] + i + s') * (i' + Nc[3]' * s) * (Nc[4] + j + t') * (j' + Nc[4]' * t) + (p * t' + q * t' + r * t') * (Nc[0]' + f + p') * (f' + Nc[0] * p) * (Nc[1] + g + q') * (g' + Nc[1]' * q) * (Nc[2]' + h + r') * (h' + Nc[2] * r) * (Nc[3] + i + s') * (i' + Nc[3]' * s) * (Nc[4]' + j + t') * (j' + Nc[4] * t) + (p * s' + q * t' + r * s') * (Nc[0] + f + p') * (f' + Nc[0]' * p) * (Nc[1]' + g + q') * (g' + Nc[1] * q) * (Nc[2] + h + r') * (h' + Nc[2]' * r) * (Nc[3]' + i + s') * (i' + Nc[3] * s) * (Nc[4]' + j + t') * (j' + Nc[4] * t)
+
+Coat Proteins:
+Nc String: [Nc[0], Nc[1], Nc[2]', Nc[3]', Nc[4]', Nc[5], Nc[6], Nc[7], Nc[8]', Nc[9]']
+Recruitment DNF: q * t' + r * s' + s' * t'
+Nc String: [Nc[0], Nc[1]', Nc[2]', Nc[3], Nc[4]', Nc[5]', Nc[6], Nc[7], Nc[8]', Nc[9]']
+Recruitment DNF: p * s' + q * s' + s' * t'
+Nc String: [Nc[0], Nc[1]', Nc[2], Nc[3], Nc[4], Nc[5], Nc[6], Nc[7]', Nc[8]', Nc[9]']
+Recruitment DNF: p * t' + q * r + r * s'
+Formula: (h' + Nc[2]' * r) * (Nc[0]' + f + p') * (Nc[1]' + g + q') * (Nc[2] + h + r') * (Nc[3] + i + s') * (i' + Nc[3]' * s) * (Nc[4] + j + t') * (j' + Nc[4]' * t) * (q * t' + r * s' + s' * t') * (f' + Nc[0] * p) * (g' + Nc[1] * q) + (Nc[0]' + f + p') * (f' + Nc[0] * p) * (Nc[1] + g + q') * (g' + Nc[1]' * q) * (Nc[2] + h + r') * (h' + Nc[2]' * r) * (Nc[3]' + i + s') * (i' + Nc[3] * s) * (Nc[4] + j + t') * (j' + Nc[4]' * t) * (p * s' + q * s' + s' * t') + (Nc[0]' + f + p') * (f' + Nc[0] * p) * (Nc[1] + g + q') * (g' + Nc[1]' * q) * (Nc[2]' + h + r') * (h' + Nc[2] * r) * (Nc[3]' + i + s') * (i' + Nc[3] * s) * (Nc[4]' + j + t') * (j' + Nc[4] * t) * (p * t' + q * r + r * s')
+
+Coat Proteins:
+Nc String: [Nc[0]', Nc[1], Nc[2], Nc[3], Nc[4], Nc[5]', Nc[6], Nc[7], Nc[8]', Nc[9]]
+Recruitment DNF: p * r + q * s' + s' * t'
+Nc String: [Nc[0], Nc[1]', Nc[2]', Nc[3]', Nc[4], Nc[5]', Nc[6], Nc[7], Nc[8], Nc[9]']
+Recruitment DNF: q * s' + r * s' + s' * t'
+Nc String: [Nc[0], Nc[1], Nc[2], Nc[3], Nc[4], Nc[5], Nc[6]', Nc[7]', Nc[8]', Nc[9]]
+Recruitment DNF: p * s' + q * r + q * s'
+Formula: (p * r + q * s' + s' * t') * (Nc[0] + f + p') * (f' + Nc[0]' * p) * (Nc[1]' + g + q') * (g' + Nc[1] * q) * (Nc[2]' + h + r') * (h' + Nc[2] * r) * (Nc[3]' + i + s') * (i' + Nc[3] * s) * (Nc[4]' + j + t') * (j' + Nc[4] * t) + (q * s' + r * s' + s' * t') * (Nc[0]' + f + p') * (f' + Nc[0] * p) * (Nc[1] + g + q') * (g' + Nc[1]' * q) * (Nc[2] + h + r') * (h' + Nc[2]' * r) * (Nc[3] + i + s') * (i' + Nc[3]' * s) * (Nc[4]' + j + t') * (j' + Nc[4] * t) + (p * s' + q * r + q * s') * (Nc[0]' + f + p') * (f' + Nc[0] * p) * (Nc[1]' + g + q') * (g' + Nc[1] * q) * (Nc[2]' + h + r') * (h' + Nc[2] * r) * (Nc[3]' + i + s') * (i' + Nc[3] * s) * (Nc[4]' + j + t') * (j' + Nc[4] * t)
+
+Coat Proteins:
+Nc String: [Nc[0]', Nc[1], Nc[2], Nc[3]', Nc[4]', Nc[5]', Nc[6], Nc[7]', Nc[8]', Nc[9]']
+Recruitment DNF: p * q + p * t' + s' * t'
+Nc String: [Nc[0]', Nc[1]', Nc[2], Nc[3], Nc[4], Nc[5], Nc[6]', Nc[7]', Nc[8]', Nc[9]]
+Recruitment DNF: p * t' + q * s' + s' * t'
+Nc String: [Nc[0]', Nc[1]', Nc[2]', Nc[3]', Nc[4], Nc[5], Nc[6], Nc[7], Nc[8]', Nc[9]]
+Recruitment DNF: p * s' + q * s' + q * t'
+Formula: (p * q + p * t' + s' * t') * (Nc[0] + f + p') * (f' + Nc[0]' * p) * (Nc[1]' + g + q') * (g' + Nc[1] * q) * (Nc[2]' + h + r') * (h' + Nc[2] * r) * (Nc[3] + i + s') * (i' + Nc[3]' * s) * (Nc[4] + j + t') * (j' + Nc[4]' * t) + (p * t' + q * s' + s' * t') * (Nc[0] + f + p') * (f' + Nc[0]' * p) * (Nc[1] + g + q') * (g' + Nc[1]' * q) * (Nc[2]' + h + r') * (h' + Nc[2] * r) * (Nc[3]' + i + s') * (i' + Nc[3] * s) * (Nc[4]' + j + t') * (j' + Nc[4] * t) + (p * s' + q * s' + q * t') * (Nc[0] + f + p') * (f' + Nc[0]' * p) * (Nc[1] + g + q') * (g' + Nc[1]' * q) * (Nc[2] + h + r') * (h' + Nc[2]' * r) * (Nc[3] + i + s') * (i' + Nc[3]' * s) * (Nc[4]' + j + t') * (j' + Nc[4] * t)
+
+Coat Proteins:
+Nc String: [Nc[0], Nc[1]', Nc[2], Nc[3]', Nc[4], Nc[5], Nc[6]', Nc[7]', Nc[8]', Nc[9]]
+Recruitment DNF: q * t' + r * s' + r * t'
+Nc String: [Nc[0], Nc[1], Nc[2]', Nc[3]', Nc[4]', Nc[5], Nc[6]', Nc[7]', Nc[8], Nc[9]']
+Recruitment DNF: p * r + r * s' + r * t'
+Nc String: [Nc[0], Nc[1], Nc[2], Nc[3]', Nc[4], Nc[5], Nc[6], Nc[7]', Nc[8], Nc[9]]
+Recruitment DNF: q * s' + r * s' + s' * t'
+Formula: (j' + Nc[4] * t) * (Nc[0]' + f + p') * (Nc[4]' + j + t') * (q * t' + r * s' + r * t') * (f' + Nc[0] * p) * (Nc[1] + g + q') * (g' + Nc[1]' * q) * (Nc[2]' + h + r') * (h' + Nc[2] * r) * (Nc[3] + i + s') * (i' + Nc[3]' * s) + (Nc[0]' + f + p') * (f' + Nc[0] * p) * (Nc[1]' + g + q') * (g' + Nc[1] * q) * (Nc[2] + h + r') * (h' + Nc[2]' * r) * (Nc[3] + i + s') * (i' + Nc[3]' * s) * (Nc[4] + j + t') * (j' + Nc[4]' * t) * (p * r + r * s' + r * t') + (Nc[0]' + f + p') * (f' + Nc[0] * p) * (Nc[1]' + g + q') * (g' + Nc[1] * q) * (Nc[2]' + h + r') * (h' + Nc[2] * r) * (Nc[3] + i + s') * (i' + Nc[3]' * s) * (Nc[4]' + j + t') * (j' + Nc[4] * t) * (q * s' + r * s' + s' * t')
+
+Coat Proteins:
+Nc String: [Nc[0]', Nc[1]', Nc[2]', Nc[3], Nc[4]', Nc[5]', Nc[6]', Nc[7], Nc[8], Nc[9]']
+Recruitment DNF: p * s' + r * s' + r * t'
+Nc String: [Nc[0], Nc[1]', Nc[2], Nc[3]', Nc[4], Nc[5]', Nc[6]', Nc[7], Nc[8]', Nc[9]']
+Recruitment DNF: p * r + p * s' + q * s'
+Nc String: [Nc[0], Nc[1]', Nc[2], Nc[3], Nc[4], Nc[5], Nc[6]', Nc[7]', Nc[8]', Nc[9]']
+Recruitment DNF: p * q + p * t' + q * r
+Formula: (f' + Nc[0] * p) * (g' + Nc[1]' * q) * (h' + Nc[2] * r) * (Nc[0]' + f + p') * (Nc[1] + g + q') * (Nc[2]' + h + r') * (Nc[3] + i + s') * (Nc[4]' + j + t') * (j' + Nc[4] * t) * (i' + Nc[3]' * s) * (p * r + p * s' + q * s') + (f' + Nc[0] * p) * (Nc[0]' + f + p') * (Nc[1] + g + q') * (g' + Nc[1]' * q) * (i' + Nc[3] * s) * (Nc[2]' + h + r') * (Nc[3]' + i + s') * (Nc[4]' + j + t') * (h' + Nc[2] * r) * (j' + Nc[4] * t) * (p * q + p * t' + q * r) + (j' + Nc[4]' * t) * (p * s' + r * s' + r * t') * (Nc[0] + f + p') * (f' + Nc[0]' * p) * (Nc[1] + g + q') * (g' + Nc[1]' * q) * (Nc[2] + h + r') * (h' + Nc[2]' * r) * (Nc[3]' + i + s') * (i' + Nc[3] * s) * (Nc[4] + j + t')
+
+Coat Proteins:
+Nc String: [Nc[0], Nc[1], Nc[2], Nc[3]', Nc[4], Nc[5]', Nc[6]', Nc[7]', Nc[8]', Nc[9]]
+Recruitment DNF: p * r + p * t' + s' * t'
+Nc String: [Nc[0]', Nc[1], Nc[2], Nc[3]', Nc[4], Nc[5]', Nc[6]', Nc[7]', Nc[8]', Nc[9]]
+Recruitment DNF: q * r + r * t' + s' * t'
+Nc String: [Nc[0]', Nc[1]', Nc[2], Nc[3]', Nc[4], Nc[5], Nc[6], Nc[7], Nc[8], Nc[9]']
+Recruitment DNF: p * t' + q * r + q * s'
+Formula: (Nc[0] + f + p') * (f' + Nc[0]' * p) * (Nc[1]' + g + q') * (g' + Nc[1] * q) * (Nc[2]' + h + r') * (h' + Nc[2] * r) * (Nc[3] + i + s') * (i' + Nc[3]' * s) * (Nc[4]' + j + t') * (j' + Nc[4] * t) * (q * r + r * t' + s' * t') + (Nc[0] + f + p') * (f' + Nc[0]' * p) * (Nc[1] + g + q') * (g' + Nc[1]' * q) * (Nc[2]' + h + r') * (h' + Nc[2] * r) * (Nc[3] + i + s') * (i' + Nc[3]' * s) * (Nc[4]' + j + t') * (j' + Nc[4] * t) * (p * t' + q * r + q * s') + (i' + Nc[3]' * s) * (Nc[0]' + f + p') * (p * r + p * t' + s' * t') * (h' + Nc[2] * r) * (f' + Nc[0] * p) * (g' + Nc[1] * q) * (Nc[2]' + h + r') * (j' + Nc[4] * t) * (Nc[1]' + g + q') * (Nc[3] + i + s') * (Nc[4]' + j + t')
+
+Coat Proteins:
+Nc String: [Nc[0], Nc[1]', Nc[2]', Nc[3]', Nc[4], Nc[5]', Nc[6], Nc[7], Nc[8]', Nc[9]']
+Recruitment DNF: p * q + p * t' + q * s'
+Nc String: [Nc[0], Nc[1]', Nc[2]', Nc[3], Nc[4], Nc[5]', Nc[6], Nc[7]', Nc[8], Nc[9]']
+Recruitment DNF: p * q + q * r + r * s'
+Nc String: [Nc[0], Nc[1]', Nc[2]', Nc[3]', Nc[4], Nc[5]', Nc[6]', Nc[7], Nc[8], Nc[9]']
+Recruitment DNF: p * q + p * s' + s' * t'
+Formula: (p * q + p * t' + q * s') * (Nc[0]' + f + p') * (f' + Nc[0] * p) * (Nc[1] + g + q') * (g' + Nc[1]' * q) * (Nc[2] + h + r') * (h' + Nc[2]' * r) * (Nc[3] + i + s') * (i' + Nc[3]' * s) * (Nc[4]' + j + t') * (j' + Nc[4] * t) + (p * q + q * r + r * s') * (Nc[0]' + f + p') * (f' + Nc[0] * p) * (Nc[1] + g + q') * (g' + Nc[1]' * q) * (Nc[2] + h + r') * (h' + Nc[2]' * r) * (Nc[3]' + i + s') * (i' + Nc[3] * s) * (Nc[4]' + j + t') * (j' + Nc[4] * t) + (p * q + p * s' + s' * t') * (Nc[0]' + f + p') * (f' + Nc[0] * p) * (Nc[1] + g + q') * (g' + Nc[1]' * q) * (Nc[2] + h + r') * (h' + Nc[2]' * r) * (Nc[3] + i + s') * (i' + Nc[3]' * s) * (Nc[4]' + j + t') * (j' + Nc[4] * t)
+
+Coat Proteins:
+Nc String: [Nc[0], Nc[1], Nc[2], Nc[3]', Nc[4], Nc[5], Nc[6], Nc[7], Nc[8]', Nc[9]']
+Recruitment DNF: p * t' + q * s' + q * t'
+Nc String: [Nc[0]', Nc[1]', Nc[2], Nc[3]', Nc[4], Nc[5]', Nc[6]', Nc[7], Nc[8]', Nc[9]]
+Recruitment DNF: p * q + p * r + p * s'
+Nc String: [Nc[0], Nc[1]', Nc[2], Nc[3]', Nc[4], Nc[5]', Nc[6], Nc[7], Nc[8]', Nc[9]']
+Recruitment DNF: p * r + q * r + s' * t'
+Formula: (Nc[1] + g + q') * (g' + Nc[1]' * q) * (Nc[2]' + h + r') * (h' + Nc[2] * r) * (Nc[3] + i + s') * (i' + Nc[3]' * s) * (j' + Nc[4] * t) * (p * q + p * r + p * s') * (Nc[0] + f + p') * (Nc[4]' + j + t') * (f' + Nc[0]' * p) + (Nc[0]' + f + p') * (f' + Nc[0] * p) * (Nc[1] + g + q') * (g' + Nc[1]' * q) * (Nc[2]' + h + r') * (h' + Nc[2] * r) * (Nc[3] + i + s') * (i' + Nc[3]' * s) * (Nc[4]' + j + t') * (j' + Nc[4] * t) * (p * r + q * r + s' * t') + (p * t' + q * s' + q * t') * (Nc[0]' + f + p') * (f' + Nc[0] * p) * (Nc[1]' + g + q') * (g' + Nc[1] * q) * (Nc[2]' + h + r') * (h' + Nc[2] * r) * (Nc[3] + i + s') * (i' + Nc[3]' * s) * (Nc[4]' + j + t') * (j' + Nc[4] * t)
+
+Coat Proteins:
+Nc String: [Nc[0]', Nc[1]', Nc[2], Nc[3], Nc[4], Nc[5], Nc[6]', Nc[7], Nc[8], Nc[9]]
+Recruitment DNF: p * q + p * s' + q * r
+Nc String: [Nc[0]', Nc[1], Nc[2]', Nc[3], Nc[4]', Nc[5], Nc[6]', Nc[7], Nc[8], Nc[9]]
+Recruitment DNF: p * q + q * s' + s' * t'
+Nc String: [Nc[0], Nc[1]', Nc[2]', Nc[3]', Nc[4], Nc[5]', Nc[6]', Nc[7], Nc[8]', Nc[9]']
+Recruitment DNF: p * q + p * r + q * s'
+Formula: (p * q + p * s' + q * r) * (Nc[0] + f + p') * (f' + Nc[0]' * p) * (Nc[1] + g + q') * (g' + Nc[1]' * q) * (Nc[2]' + h + r') * (h' + Nc[2] * r) * (Nc[3]' + i + s') * (i' + Nc[3] * s) * (Nc[4]' + j + t') * (j' + Nc[4] * t) + (p * q + q * s' + s' * t') * (Nc[0] + f + p') * (f' + Nc[0]' * p) * (Nc[1]' + g + q') * (g' + Nc[1] * q) * (Nc[2] + h + r') * (h' + Nc[2]' * r) * (Nc[3]' + i + s') * (i' + Nc[3] * s) * (Nc[4] + j + t') * (j' + Nc[4]' * t) + (p * q + p * r + q * s') * (Nc[0]' + f + p') * (f' + Nc[0] * p) * (Nc[1] + g + q') * (g' + Nc[1]' * q) * (Nc[2] + h + r') * (h' + Nc[2]' * r) * (Nc[3] + i + s') * (i' + Nc[3]' * s) * (Nc[4]' + j + t') * (j' + Nc[4] * t)
+
+Coat Proteins:
+Nc String: [Nc[0], Nc[1], Nc[2], Nc[3]', Nc[4], Nc[5], Nc[6], Nc[7], Nc[8]', Nc[9]]
+Recruitment DNF: p * r + q * t' + r * t'
+Nc String: [Nc[0], Nc[1]', Nc[2]', Nc[3], Nc[4]', Nc[5]', Nc[6], Nc[7]', Nc[8], Nc[9]']
+Recruitment DNF: p * s' + q * t' + s' * t'
+Nc String: [Nc[0], Nc[1], Nc[2]', Nc[3], Nc[4]', Nc[5], Nc[6], Nc[7], Nc[8]', Nc[9]']
+Recruitment DNF: p * q + q * r + r * s'
+Formula: (h' + Nc[2]' * r) * (i' + Nc[3] * s) * (Nc[0]' + f + p') * (Nc[1] + g + q') * (Nc[2] + h + r') * (Nc[3]' + i + s') * (Nc[4] + j + t') * (j' + Nc[4]' * t) * (p * s' + q * t' + s' * t') * (f' + Nc[0] * p) * (g' + Nc[1]' * q) + (Nc[0]' + f + p') * (f' + Nc[0] * p) * (Nc[1]' + g + q') * (g' + Nc[1] * q) * (Nc[2] + h + r') * (h' + Nc[2]' * r) * (Nc[3]' + i + s') * (i' + Nc[3] * s) * (Nc[4] + j + t') * (j' + Nc[4]' * t) * (p * q + q * r + r * s') + (p * r + q * t' + r * t') * (Nc[0]' + f + p') * (f' + Nc[0] * p) * (Nc[1]' + g + q') * (g' + Nc[1] * q) * (Nc[2]' + h + r') * (h' + Nc[2] * r) * (Nc[3] + i + s') * (i' + Nc[3]' * s) * (Nc[4]' + j + t') * (j' + Nc[4] * t)
+
+Coat Proteins:
+Nc String: [Nc[0]', Nc[1], Nc[2]', Nc[3], Nc[4], Nc[5], Nc[6], Nc[7]', Nc[8]', Nc[9]]
+Recruitment DNF: p * q + p * t' + q * r
+Nc String: [Nc[0]', Nc[1]', Nc[2], Nc[3]', Nc[4], Nc[5]', Nc[6], Nc[7]', Nc[8]', Nc[9]]
+Recruitment DNF: p * r + p * s' + q * r
+Nc String: [Nc[0]', Nc[1]', Nc[2]', Nc[3], Nc[4]', Nc[5], Nc[6], Nc[7], Nc[8], Nc[9]]
+Recruitment DNF: p * q + p * r + s' * t'
+Formula: (Nc[0] + f + p') * (Nc[3] + i + s') * (i' + Nc[3]' * s) * (Nc[4]' + j + t') * (j' + Nc[4] * t) * (p * r + p * s' + q * r) * (f' + Nc[0]' * p) * (Nc[1] + g + q') * (g' + Nc[1]' * q) * (Nc[2]' + h + r') * (h' + Nc[2] * r) + (Nc[0] + f + p') * (f' + Nc[0]' * p) * (Nc[1] + g + q') * (g' + Nc[1]' * q) * (Nc[2] + h + r') * (h' + Nc[2]' * r) * (Nc[3]' + i + s') * (i' + Nc[3] * s) * (Nc[4] + j + t') * (j' + Nc[4]' * t) * (p * q + p * r + s' * t') + (p * q + p * t' + q * r) * (Nc[0] + f + p') * (f' + Nc[0]' * p) * (Nc[1]' + g + q') * (g' + Nc[1] * q) * (Nc[2] + h + r') * (h' + Nc[2]' * r) * (Nc[3]' + i + s') * (i' + Nc[3] * s) * (Nc[4]' + j + t') * (j' + Nc[4] * t)
+
+Coat Proteins:
+Nc String: [Nc[0]', Nc[1]', Nc[2]', Nc[3], Nc[4]', Nc[5]', Nc[6], Nc[7]', Nc[8], Nc[9]]
+Recruitment DNF: p * t' + q * r + q * t'
+Nc String: [Nc[0], Nc[1]', Nc[2]', Nc[3]', Nc[4], Nc[5], Nc[6]', Nc[7]', Nc[8]', Nc[9]']
+Recruitment DNF: p * r + p * s' + q * t'
+Nc String: [Nc[0]', Nc[1]', Nc[2], Nc[3]', Nc[4]', Nc[5]', Nc[6], Nc[7], Nc[8], Nc[9]]
+Recruitment DNF: p * q + p * r + p * t'
+Formula: (p * t' + q * r + q * t') * (Nc[0] + f + p') * (f' + Nc[0]' * p) * (Nc[1] + g + q') * (g' + Nc[1]' * q) * (Nc[2] + h + r') * (h' + Nc[2]' * r) * (Nc[3]' + i + s') * (i' + Nc[3] * s) * (Nc[4] + j + t') * (j' + Nc[4]' * t) + (p * r + p * s' + q * t') * (Nc[0]' + f + p') * (f' + Nc[0] * p) * (Nc[1] + g + q') * (g' + Nc[1]' * q) * (Nc[2] + h + r') * (h' + Nc[2]' * r) * (Nc[3] + i + s') * (i' + Nc[3]' * s) * (Nc[4]' + j + t') * (j' + Nc[4] * t) + (p * q + p * r + p * t') * (Nc[0] + f + p') * (f' + Nc[0]' * p) * (Nc[1] + g + q') * (g' + Nc[1]' * q) * (Nc[2]' + h + r') * (h' + Nc[2] * r) * (Nc[3] + i + s') * (i' + Nc[3]' * s) * (Nc[4] + j + t') * (j' + Nc[4]' * t)
+
+Coat Proteins:
+Nc String: [Nc[0], Nc[1]', Nc[2], Nc[3]', Nc[4]', Nc[5], Nc[6]', Nc[7]', Nc[8], Nc[9]]
+Recruitment DNF: p * r + q * s' + s' * t'
+Nc String: [Nc[0]', Nc[1], Nc[2], Nc[3]', Nc[4]', Nc[5]', Nc[6], Nc[7]', Nc[8]', Nc[9]]
+Recruitment DNF: p * r + q * s' + q * t'
+Nc String: [Nc[0], Nc[1], Nc[2]', Nc[3], Nc[4]', Nc[5]', Nc[6]', Nc[7]', Nc[8], Nc[9]]
+Recruitment DNF: p * q + q * s' + r * t'
+Formula: (p * r + q * s' + s' * t') * (Nc[0]' + f + p') * (f' + Nc[0] * p) * (Nc[1] + g + q') * (g' + Nc[1]' * q) * (Nc[2]' + h + r') * (h' + Nc[2] * r) * (Nc[3] + i + s') * (i' + Nc[3]' * s) * (Nc[4] + j + t') * (j' + Nc[4]' * t) + (p * r + q * s' + q * t') * (Nc[0] + f + p') * (f' + Nc[0]' * p) * (Nc[1]' + g + q') * (g' + Nc[1] * q) * (Nc[2]' + h + r') * (h' + Nc[2] * r) * (Nc[3] + i + s') * (i' + Nc[3]' * s) * (Nc[4] + j + t') * (j' + Nc[4]' * t) + (p * q + q * s' + r * t') * (Nc[0]' + f + p') * (f' + Nc[0] * p) * (Nc[1]' + g + q') * (g' + Nc[1] * q) * (Nc[2] + h + r') * (h' + Nc[2]' * r) * (Nc[3]' + i + s') * (i' + Nc[3] * s) * (Nc[4] + j + t') * (j' + Nc[4]' * t)
+
+Coat Proteins:
+Nc String: [Nc[0]', Nc[1]', Nc[2]', Nc[3]', Nc[4]', Nc[5], Nc[6], Nc[7]', Nc[8]', Nc[9]']
+Recruitment DNF: p * q + p * s' + q * t'
+Nc String: [Nc[0], Nc[1], Nc[2]', Nc[3], Nc[4]', Nc[5]', Nc[6], Nc[7]', Nc[8]', Nc[9]']
+Recruitment DNF: p * q + q * r + r * t'
+Nc String: [Nc[0], Nc[1]', Nc[2], Nc[3]', Nc[4], Nc[5], Nc[6]', Nc[7]', Nc[8], Nc[9]']
+Recruitment DNF: q * s' + q * t' + r * s'
+Formula: (p * q + q * r + r * t') * (Nc[0]' + f + p') * (f' + Nc[0] * p) * (Nc[1]' + g + q') * (g' + Nc[1] * q) * (Nc[2] + h + r') * (h' + Nc[2]' * r) * (Nc[3]' + i + s') * (i' + Nc[3] * s) * (Nc[4] + j + t') * (j' + Nc[4]' * t) + (p * q + p * s' + q * t') * (Nc[0] + f + p') * (f' + Nc[0]' * p) * (Nc[1] + g + q') * (g' + Nc[1]' * q) * (Nc[2] + h + r') * (h' + Nc[2]' * r) * (Nc[3] + i + s') * (i' + Nc[3]' * s) * (Nc[4] + j + t') * (j' + Nc[4]' * t) + (q * s' + q * t' + r * s') * (Nc[0]' + f + p') * (f' + Nc[0] * p) * (Nc[1] + g + q') * (g' + Nc[1]' * q) * (Nc[2]' + h + r') * (h' + Nc[2] * r) * (Nc[3] + i + s') * (i' + Nc[3]' * s) * (Nc[4]' + j + t') * (j' + Nc[4] * t)
+
